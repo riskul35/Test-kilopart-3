@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #101210;
+  --foreground: #e8ebe6;
+  --primary: #a8b5a4;
+  --primary-foreground: #101210;
+  --muted: #1a1d1a;
+  --muted-foreground: #8a9088;
+  --border: #2a2e2a;
+  --card: #161916;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  min-height: 100dvh;
+}
